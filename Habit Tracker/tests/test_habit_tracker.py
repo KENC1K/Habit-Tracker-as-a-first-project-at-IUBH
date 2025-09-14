@@ -139,7 +139,8 @@ def test_period_summary(fresh_db):
     habit2_id = fresh_db.add_habit("Daily2", "daily", 2)
     habit1 = Habit("Daily1", "daily", 1, db_instance=fresh_db, habit_id=habit1_id)
     habit2 = Habit("Daily2", "daily", 2, db_instance=fresh_db, habit_id=habit2_id)
-    habit1.performed()  # Daily1 completat
+    habit1.performed() 
     summary = fresh_db.period_summary("daily")
     assert summary['completed'] == 1
+
     assert summary['missed'] >= 1
