@@ -16,7 +16,7 @@ Track completions, monitor progress with current and longest streaks, and analyz
 ## Setup
 
 ```bash
-git clone <your-repository-link>
+git clone https://github.com/KENC1K/Habit-Tracker-as-a-first-project-at-IUBH.git
 cd "Habit Tracker"
 pip install -r requirements.txt
 ```
@@ -78,3 +78,4 @@ Habit Tracker/
 * Requires Python 3.7 or higher
 * Fully documented modules
 * All functionality implemented from scratch without external habit-tracking libraries
+
