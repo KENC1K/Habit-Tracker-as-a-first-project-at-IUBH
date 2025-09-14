@@ -1,0 +1,4 @@
+# External dependencies for Habit Tracker App
+
+questionary>=1.10.0
+pytest>=8.0.0
