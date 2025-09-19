@@ -79,3 +79,5 @@ Habit Tracker/
 * Fully documented modules
 * All functionality implemented from scratch without external habit-tracking libraries
 
+## Habit Tracker Presentation
+You can view the project presentation [here](Habit_Tracker_Presentation.pdf)
